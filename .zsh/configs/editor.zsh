@@ -1,0 +1,1 @@
+/home/shailesh/dotfiles/zsh/configs/editor.zsh

@@ -1,0 +1,1 @@
+/home/shailesh/dotfiles/zshrc

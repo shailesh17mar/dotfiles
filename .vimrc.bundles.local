@@ -1,0 +1,18 @@
+
+Plug 'valloric/youcompleteme'
+Plug 'mattn/emmet-vim'
+Plug 'marijnh/tern_for_vim'
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'easymotion/vim-easymotion'
+Plug 'scrooloose/nerdtree'
+Plug 'jwhitley/vim-matchit'
+Plug 'craigemery/vim-autotag'
+Plug 'mxw/vim-jsx'
+Plug 'tpope/vim-abolish'
+Plug 'digitaltoad/vim-pug'
+Plug 'mileszs/ack.vim'
+Plug 'kristijanhusak/vim-hybrid-material'
+Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx']  }
+Plug 'mxw/vim-jsx', { 'for': ['javascript', 'javascript.jsx']  }
+Plug 'jdkanani/vim-material-theme'
+Plug 'jiangmiao/auto-pairs'

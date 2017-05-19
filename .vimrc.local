@@ -1,0 +1,65 @@
+syntax enable
+set number
+set hlsearch
+set foldmethod=indent
+filetype plugin indent on
+let g:solarized_termcolors=256
+let g:solarized_bold=1
+set background=light
+let g:javascript_plugin_jsdoc = 1
+"
+
+let g:jsx_ext_required = 0 
+" colorscheme solarized
+set background=dark
+colorscheme PaperColor
+let g:enable_bold_font = 1
+" set background=light
+" set background=dark
+" colorscheme material-theme
+" colorscheme hybrid_material
+"  airlines plugin
+let g:airline#extensions#tabline#enabled=1
+:set fillchars+=vert:\
+set clipboard=unnamed
+hi VertSplit ctermbg=NONE
+hi VertSpilt ctermfg=NONE
+set relativenumber
+set timeoutlen=1000 ttimeoutlen=0
+let g:javascript_plugin_ngdoc = 1
+
+set smartcase
+set gdefault
+set incsearch
+set showmatch
+
+" Text wrapping
+set wrap
+set textwidth=79
+set formatoptions=qrn1
+set colorcolumn=85
+
+ hi Folded ctermfg=black
+ hi Folded ctermbg=gray
+
+
+" If you prefer the Omni-Completion tip window to close when a selection is
+" made, these lines close it on movement in insert mode or when leaving
+" insert mode
+autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
+autocmd InsertLeave * if pumvisible() == 0|pclose|endif
+
+" CtrlP options
+set wildignore+=*/tmp/*,*/node_modules/*,*/bower_components/*,*.so,*.swp,*.zip  
+let g:ctrlp_show_hidden = 1
+set pastetoggle=<F2>
+set tags=./tags,tags;$HOME
+
+autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+map <C-n> :NERDTreeToggle<CR>
+imap hh <C-y>,i
+" let g:NERDTreeHijackNetrw=0
+set fillchars=vert:\│
+
+
